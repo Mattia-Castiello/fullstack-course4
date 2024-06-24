@@ -2,8 +2,9 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Inheritance in CSS</title>
-<style>
+<title>Inheritance in CSS</title> 
+<style> /*per risolvere i conflitti tra i vari stili css si utilizza il concetto di specificità, quindi abbiamo in ordine se utilizza
+la parola style, id, classi, e numero di elementi...il numero più grnade vince */
 header.navigation p {
   color: blue;
 }
@@ -11,7 +12,7 @@ p.blurb {
   color: red;
 }
 p {
-  color: green !important;
+  color: green !important; <!-- important è utilizzato per soprascrivvere qualsiasi regola di stile-->
 }
 </style>
 </head>
